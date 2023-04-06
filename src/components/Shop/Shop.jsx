@@ -36,6 +36,7 @@ const Shop = () => {
     }, [])
 
     const handleAddToCart = (product) => {
+        let newCart;
         // cart.push(product);
         // const newCart = [...cart, product]; // spread operator
         // if product doesn't exist in the cart, then set quantity = 1
